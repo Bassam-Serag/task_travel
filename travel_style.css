@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+ 
+}
+header nav {
+    padding: 15px;
+    position: fixed;
+    margin: 10px;
+
+    width: 100%;
+    margin-right: 30px;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    
+    gap: 5px;
+    list-style: none;
+}
+
+li a {
+    color: #B8BECD;
+    text-decoration: none;
+    margin: 10px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+}
+.but-1 ,.but-2 {
+    border: 1px solid #FB8F1D;
+     border-radius: 8px;
+     width: 100px;
+     align-items: center;
+     color: #FB8F1D;
+     background-color: #fff;
+     height: 30px;
+
+}
+.but-2{
+
+    color: #ffffff;
+    background-color:#FB8F1D;
+}
+.but-1:hover, .select:hover{
+    background-color:#FB8F1D;
+    color: #ffffff;
+    
+}
+.but-2:hover{
+    background-color:#ffffff;
+    color: #FB8F1D;
+    
+}
+ .grand-father ,.op-1,.op-2, .perent ,.view ,.sec-5,.sec-6 ,.vv{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    
+    gap: 5px;
+   
+}
+.select{
+    width: 220px;
+    height: 52px;
+    border: 0.8px solid #AFB0B9;
+    border-radius: 6px;
+    font-size: 15px;
+    color: #4A4C53;
+    
+}
+.h-span{
+    color: #000000; 
+    font: 40px Playfair Display;
+}
+.che-1{
+    margin: auto;
+}
+.v{
+  color: #FB8F1D; 
+font-family: 'Inter'; 
+font-size: 17px;
+}
+.sec-7 img{
+    width: 200px;
+    height: 300px;
+    margin-left: 50px;
+    padding-left: 30px;
+}
+.sec-7{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+
+    
+   
+}
+.view-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sec-7 img{
+    width: 270px;
+    height: 245px;
+}
+.sec-7 img:hover ,.view img:hover  ,.man img:hover {
+   transform: scale(1.1);
+   background-color:#ea953b;
+   
+ 
+ }
+ .fot img:hover{
+
+    transform: scale(2);
+
+ }
+ .sec-8{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 40px;
+    background-color: #F9F9FB;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+
+
+ }
+ .sec-8 p{
+    font-family: 'Mulish';
+    color: #848484;
+    font-size: 18px;
+ }
+ .fot{
+    
+   margin: auto;
+  
+   padding-top: 30px;
+   background-color: #F9F9FB;
+   
+ }
